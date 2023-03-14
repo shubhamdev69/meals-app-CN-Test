@@ -20,10 +20,11 @@ function fetchRecipe() {
             </div> -->
                 
                 <div class="detail-container">
+
+                    <img src="${meal.strMealThumb}" alt="image">
                     <div class="common"><b>Food Name : </b> ${meal.strMeal}</div>
 
                     <div class="common"><b>Food Category : </b> ${meal.strCategory}</div>
-                    <img src="${meal.strMealThumb}" alt="image">
                     <div class="common"><b>Instructions : </b>${meal.strInstructions}</div>
                     <div class="common">
                         <b>Ingredients Required :</b>

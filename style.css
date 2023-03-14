@@ -30,6 +30,7 @@ nav .container-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
   /* border: 2px solid red; */
 }
 nav .container-box ul {
@@ -39,6 +40,10 @@ nav .container-box ul {
 nav .container-box ul li {
   list-style-type: none;
   margin: 10px;
+}
+
+nav .container-box ul li a:hover{
+  color: white;
 }
 
 nav .container-box ul li a {
