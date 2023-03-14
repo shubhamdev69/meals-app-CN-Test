@@ -45,7 +45,7 @@ function fetchRecipe() {
             `;
         });
         let recipecontainer = document.getElementById("info-container");
-        recipecontainer.innerHTML = html;
+        recipecontainer.innerHTML = html; // info-container ID will  contain a HTML element from it.
       }
     });
 }
